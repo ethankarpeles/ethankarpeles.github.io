@@ -1,0 +1,4 @@
+.latexdiv {
+    margin: var(--small-space) 0;
+    flex-basis: 100%
+}
