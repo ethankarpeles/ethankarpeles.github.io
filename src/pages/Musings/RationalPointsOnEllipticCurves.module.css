@@ -1,0 +1,13 @@
+.stars {
+    --stars-image-width: 1vw;
+
+    display: flex;
+    flex: 1 1 var(--stars-image-width);
+    margin: var(--medium-space);
+
+    max-width: 100%;
+    min-width: 200px;
+
+    border-radius: 10%;
+    align-self: flex-start;
+}

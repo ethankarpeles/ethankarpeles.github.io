@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    <url>
+        <loc>https://ethankarpeles.github.io/</loc>
+    </url>
+
+    <url>
+        <loc>https://ethankarpeles.github.io/#/resume</loc>
+    </url>
+
+    <url>
+        <loc>https://ethankarpeles.github.io/#/musings</loc>
+    </url>
+
+    <url>
+        <loc>https://ethankarpeles.github.io/#/musings/rational-points-on-elliptic-curves</loc>
+    </url>
+
+    <url>
+        <loc>https://ethankarpeles.github.io/#/musings/reductions-of-elliptic-curves</loc>
+    </url>
+
+    <url>
+        <loc>https://ethankarpeles.github.io/#/musings/minecraft-calculator</loc>
+    </url>
+
+</urlset>
