@@ -14,9 +14,6 @@ function Content() {
     const PMG = <a href='https://www.pmg.com/' target='_blank'>
         PMG
     </a>;
-    const GLP = <a href='https://www.pmg.com/careers/graduate-opportunities' target='_blank'>
-        PMG's Graduate Leadership Program
-    </a>;
     const UNT = <a href='https://www.unt.edu/' target='_blank'>
         University of North Texas
     </a>;
