@@ -1,5 +1,4 @@
 import Navbar from '@components/Navbar/Navbar.tsx';
-import Footer from '@components/Footer/Footer.tsx';
 import styles from './About.module.css';
 import headshot from '@assets/images/professional-headshot.png';
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
@@ -8,7 +7,6 @@ export default function About() {
     return (<>
         <Navbar />
         <Content />
-        <Footer />
     </>);
 }
 
@@ -41,7 +39,7 @@ function Content() {
             </header>
             <section>
                 <div className='imagewordcontainer'>
-                    <p>Welcome! I am an AI & Software Engineer I at {PMG}. After a rewarding internship with the company, I am returning through {GLP}.</p>
+                    <p>Welcome! I am an AI & Software Engineer I at {PMG}.</p>
                     <p>My software engineering journey is grounded in a strong quantitative background at the {UNT}, where I recently graduated with a Bachelor of Science in Mathematics. In 2024, the {UNTMath} recognized my academic and community contributions by naming me {Outstanding}. Beyond the classroom, I also had the opportunity to explore arithmetic geometry through my research in <i>Rational Points on Elliptic Curves</i>, which I presented at the {STaRS} (STaRS).</p>
                     <p>I thrive at the intersection of mathematical theory and practical software engineering. My goal is to leverage my mathematical knowledge to solve complex problems in marketing technology.</p>
                 </div>
