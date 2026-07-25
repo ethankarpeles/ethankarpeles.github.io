@@ -1,7 +1,7 @@
 .footer {
-    width: var(--content-width);
-    margin: var(--large-space) auto;
-    padding-top: var(--medium-space);
+  width: var(--content-width);
+  margin: var(--large-space) auto;
+  padding-top: var(--medium-space);
 
-    text-align: center;
+  text-align: center;
 }

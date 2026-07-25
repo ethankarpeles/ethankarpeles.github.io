@@ -1,9 +1,11 @@
-import { Outlet } from 'react-router-dom';
-import Navbar from '@components/Navbar/Navbar.tsx';
+import { Outlet } from "react-router-dom";
+import Navbar from "@components/Navbar/Navbar.tsx";
 
 export default function Musings() {
-    return (<>
-        <Navbar />
-        <Outlet />
-    </>);
+  return (
+    <>
+      <Navbar />
+      <Outlet />
+    </>
+  );
 }
