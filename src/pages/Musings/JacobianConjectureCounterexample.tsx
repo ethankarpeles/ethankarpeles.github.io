@@ -6,10 +6,8 @@ export default function JacobianConjectureCounterexample() {
     return (
         <>
             <article>
-                <div className="articleheading">
-                    <h1>On the Jacobian Conjecture Counterexample</h1>
-                    <p className="articledate">July 25, 2026</p>
-                </div>
+                <h1>On the Jacobian Conjecture Counterexample</h1>
+                <p className="articledate">July 25, 2026</p>
 
                 <section>
                     <p>
