@@ -22,20 +22,20 @@ export default function JacobianConjectureCounterexample() {
                         </u>{" "}
                         for <Latex math="n > 2" /> was recently announced by
                         Levent Alpöge, who used Anthropic's Fable model to help
-                        discover the result.
+                        find the result.
                     </p>
 
                     <TwitterPost url="https://x.com/__alpoge__/status/2079028340955197566" />
 
                     <p>
-                        I have been having a lot of fun investigating this
-                        result, and wanted to share an expository walkthrough of
-                        the announced counterexample. In particular, I plan to
-                        introduce the necessary abstract algebra, walk through
-                        the statement of the conjecture, and then explain why
-                        the function constitutes a counterexample. My hope is
-                        that this explanation will be relatively accessible
-                        without sacrificing too much rigor. I will only assume
+                        I have been having a lot of fun investigating this, and
+                        wanted to share an expository walkthrough of the
+                        announced counterexample. In particular, I plan to
+                        introduce the necessary abstract algebra, state the
+                        conjecture, and then explain why the function
+                        constitutes a counterexample. My hope is that this
+                        explanation will be relatively accessible without
+                        sacrificing too much rigor. I will only assume
                         familiarity with basic set theory, linear algebra, and
                         multivariable calculus.
                     </p>
