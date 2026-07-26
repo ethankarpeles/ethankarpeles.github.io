@@ -21,8 +21,8 @@ export default function JacobianConjectureCounterexample() {
                             </a>
                         </u>{" "}
                         for <Latex math="n > 2" /> was recently announced by
-                        Levent Alpöge, who credited Anthropic's Fable model for
-                        the result.
+                        Levent Alpöge, who used Anthropic's Fable model to help
+                        discover the result.
                     </p>
 
                     <TwitterPost url="https://x.com/__alpoge__/status/2079028340955197566" />
