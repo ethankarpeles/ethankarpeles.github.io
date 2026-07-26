@@ -32,16 +32,27 @@
   text-shadow: 0.5px 0.5px 1px var(--color-accent);
 }
 
+.clampLines {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
 .title {
+  composes: clampLines;
+
   font-size: var(--card-font-size);
   margin-bottom: var(--small-space);
 }
 
 .description {
+  composes: clampLines;
+
   flex: 1;
   font-size: var(--card-font-size);
   color: var(--color-secondary);
   line-height: 1.4;
+  height: calc(var(--card-font-size) * 1.4);
   margin-bottom: 0;
 }
 
