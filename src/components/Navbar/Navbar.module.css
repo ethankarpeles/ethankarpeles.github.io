@@ -19,7 +19,7 @@
   padding: 0 calc((100% - var(--content-width)) / 2);
 
   box-shadow: 0 1px 8px var(--color-secondary);
-  background-color: var(--color-bg-navbar);
+  background-color: var(--color-bg-surface);
 }
 
 .navlinks {
