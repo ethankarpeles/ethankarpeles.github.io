@@ -22,6 +22,10 @@
   background-color: var(--color-bg-surface);
 }
 
+.navlink:not(:hover) {
+  color: var(--color-text);
+}
+
 .navlinks {
   display: flex;
   align-items: center;

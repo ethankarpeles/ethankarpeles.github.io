@@ -22,9 +22,9 @@
 }
 
 .card:hover {
-  transform: translateX(5px);
+  transform: translateX(var(--tiny-space));
   text-shadow: none;
-  box-shadow: 0 0 5px var(--color-secondary);
+  box-shadow: 0 0 var(--tiny-space) var(--color-secondary);
 }
 
 .card:hover .title {
@@ -32,30 +32,20 @@
   text-shadow: 0.5px 0.5px 1px var(--color-accent);
 }
 
-.clampLines {
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-}
-
 .title {
-  composes: clampLines;
-
+  font-size: var(--card-font-size);
   margin-bottom: var(--small-space);
 }
 
 .description {
-  composes: clampLines;
-
   flex: 1;
-  font-size: var(--small-font-size);
+  font-size: var(--card-font-size);
   color: var(--color-secondary);
   line-height: 1.4;
-  height: calc(var(--small-font-size) * 1.4);
   margin-bottom: 0;
 }
 
 .library {
-  width: 600px;
+  width: 650px;
   max-width: var(--content-width);
 }
