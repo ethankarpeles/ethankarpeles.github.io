@@ -380,7 +380,7 @@ export default function JacobianConjectureCounterexample() {
                         matrix are polynomials themselves. However,
                         fascinatingly, it still ends up being a nonzero
                         constant! Here's why. Because <Latex math="F, G" /> are
-                        assumed to be inverse functions, we have:
+                        assumed to be inverse functions of each other, we have:
                     </p>
                     <Latex
                         math="\begin{align*}
