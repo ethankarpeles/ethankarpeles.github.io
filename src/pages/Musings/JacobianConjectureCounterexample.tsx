@@ -481,7 +481,7 @@ export default function JacobianConjectureCounterexample() {
                     <h2>Counterexample</h2>
 
                     <p>
-                        The announced counterexample is the polynomial map{" "}
+                        The announced counterexample is a polynomial map{" "}
                         <Latex math="F \colon \mathbb{C}^3 \to \mathbb{C}^3" />{" "}
                         with nonzero constant Jacobian determinant{" "}
                         <Latex math="J_F = -2" /> that is not injective and
