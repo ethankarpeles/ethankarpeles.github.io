@@ -49,11 +49,11 @@
   composes: clampLines;
   -webkit-line-clamp: 2;
 
-  flex: 1;
+  flex: none;
   font-size: var(--small-font-size);
   color: var(--color-secondary);
 
-  height: calc(var(--small-font-size) * 1.4 * 2);
+  min-height: calc(var(--small-font-size) * 1.4 * 2);
   line-height: 1.4;
   margin-bottom: 0;
 }
