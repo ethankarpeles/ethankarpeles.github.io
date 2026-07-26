@@ -450,7 +450,7 @@ export default function JacobianConjectureCounterexample() {
                         polynomials. The degree of a product of nonzero
                         polynomials is the sum of their degrees. Since their
                         product is <Latex math="1" />, which has degree zero,
-                        both polynomials must have degree zero. Thus,
+                        both polynomials must have degree zero. Thus,{" "}
                         <Latex math="J_F" /> is a nonzero constant.
                     </p>
 
