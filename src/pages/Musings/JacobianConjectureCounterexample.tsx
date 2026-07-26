@@ -464,7 +464,7 @@ export default function JacobianConjectureCounterexample() {
                                 Jacobian conjecture
                             </a>
                         </u>{" "}
-                        is the converse to this fact:
+                        is the partial converse to this fact:
                     </p>
 
                     <p style={{ textAlign: "center" }}>
