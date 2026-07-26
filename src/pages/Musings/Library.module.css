@@ -33,28 +33,25 @@
 }
 
 .clampLines {
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
   overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 .title {
   composes: clampLines;
-  -webkit-line-clamp: 1;
 
   margin-bottom: var(--small-space);
 }
 
 .description {
   composes: clampLines;
-  -webkit-line-clamp: 2;
 
-  flex: none;
+  flex: 1;
   font-size: var(--small-font-size);
   color: var(--color-secondary);
-
-  min-height: calc(var(--small-font-size) * 1.4 * 2);
   line-height: 1.4;
+  height: calc(var(--small-font-size) * 1.4);
   margin-bottom: 0;
 }
 
