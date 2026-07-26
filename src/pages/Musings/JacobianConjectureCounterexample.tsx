@@ -375,12 +375,12 @@ export default function JacobianConjectureCounterexample() {
                     <p>
                         Notice that a priori <Latex math="J_F" /> could be any
                         polynomial in <Latex math="x_1, \dots, x_n" /> since the
-                        determinant is just a sum of products of the matrix, and
-                        in this case the entries of the Jacobian matrix are
-                        polynomials themselves. However, fascinatingly, the
-                        stated fact is true! Here's why. Because{" "}
-                        <Latex math="F, G" /> are assumed to be inverse
-                        functions, we have:
+                        determinant is just a sum of products of the entries of
+                        the matrix, and in this case the entries of the Jacobian
+                        matrix are polynomials themselves. However,
+                        fascinatingly, it still ends up being a nonzero
+                        constant! Here's why. Because <Latex math="F, G" /> are
+                        assumed to be inverse functions, we have:
                     </p>
                     <Latex
                         math="\begin{align*}
