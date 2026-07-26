@@ -330,11 +330,13 @@ export default function JacobianConjectureCounterexample() {
                         derivatives of all <Latex math="f_i" /> as so:
                     </p>
                     <Latex
-                        math="\begin{bmatrix}
+                        math="\begin{align*}
+                        DF\left( \begin{bmatrix} x_1 \\ \vdots \\ x_n \end{bmatrix} \right) &= \begin{bmatrix}
                     \frac{\partial f_1}{\partial x_1} & \dots & \frac{\partial f_1}{\partial x_n} \\
                     \vdots & \ddots & \vdots \\
                     \frac{\partial f_n}{\partial x_1} & \dots & \frac{\partial f_n}{\partial x_n}
-                \end{bmatrix}"
+                \end{bmatrix}
+                \end{align*}"
                         display
                         center
                     />
