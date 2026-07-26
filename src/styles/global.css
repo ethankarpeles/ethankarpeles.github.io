@@ -60,6 +60,20 @@ article {
   padding-top: var(--large-space);
 }
 
+.articleheading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--small-space);
+}
+
+.articledate {
+  width: auto;
+  font-size: calc(var(--regular-font-size) * 0.8);
+  font-style: italic;
+  white-space: nowrap;
+}
+
 section {
   display: flex;
   flex-wrap: wrap;
