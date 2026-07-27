@@ -1,4 +1,5 @@
 import Navbar from "@components/Navbar/Navbar.tsx";
+import Footer from "@components/Footer/Footer.tsx";
 import styles from "./About.module.css";
 import headshot from "@assets/images/professional-headshot.png";
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
@@ -72,6 +73,7 @@ function Content() {
         </div>
         <img src={headshot} className={styles.headshot} />
       </section>
+      <Footer />
     </article>
   );
 }
