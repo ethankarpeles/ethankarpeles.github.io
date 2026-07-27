@@ -5,18 +5,21 @@
   --color-accent: hsl(192, 90%, 67%);
   --color-text: hsl(217, 33%, 96%);
 
+  --link-shadow: 0.5px 0.5px 1px var(--color-accent);
+  --secondary-box-shadow: 0 0 var(--tiny-space) var(--color-secondary);
+
   --font-family-main: Arial, sans-serif;
+  --card-font-size: clamp(5px, 1.9vw, 14.7px);
   --regular-font-size: clamp(1rem, 1.2vw, 1.2rem);
   --small-font-size: clamp(0.8rem, 1vw, 1rem);
   --tiny-font-size: clamp(0.6rem, 0.72vw, 0.72rem);
-  --card-font-size: clamp(5px, 1.9vw, 14.7px);
 
   --content-width: 80%;
 
-  --tiny-space: 5px;
-  --small-space: 10px;
-  --medium-space: 20px;
   --large-space: 40px;
+  --medium-space: 20px;
+  --small-space: 10px;
+  --tiny-space: 5px;
 }
 
 * {
@@ -123,7 +126,7 @@ a {
 
 a:hover {
   color: var(--color-accent);
-  text-shadow: 0.5px 0.5px 1px var(--color-accent);
+  text-shadow: var(--link-shadow);
 }
 
 .katex {

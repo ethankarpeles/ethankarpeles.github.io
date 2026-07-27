@@ -12,8 +12,7 @@
   padding: var(--medium-space) var(--medium-space);
 
   background: var(--color-bg-surface);
-  border-left: 4px solid var(--color-accent);
-  box-shadow: 0 0 2px var(--color-secondary);
+  border-left: var(--tiny-space) solid var(--color-accent);
 
   transition:
     transform 0.1s,
@@ -24,12 +23,12 @@
 .card:hover {
   transform: translateX(var(--tiny-space));
   text-shadow: none;
-  box-shadow: 0 0 var(--tiny-space) var(--color-secondary);
+  box-shadow: var(--secondary-box-shadow);
 }
 
 .card:hover .title {
   color: var(--color-accent);
-  text-shadow: 0.5px 0.5px 1px var(--color-accent);
+  text-shadow: var(--link-shadow);
 }
 
 .clampLines {

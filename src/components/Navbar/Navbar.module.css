@@ -18,7 +18,7 @@
   /* Divide by 2 for each side */
   padding: 0 calc((100% - var(--content-width)) / 2);
 
-  box-shadow: 0 1px 8px var(--color-secondary);
+  box-shadow: var(--secondary-box-shadow);
   background-color: var(--color-bg-surface);
 }
 
