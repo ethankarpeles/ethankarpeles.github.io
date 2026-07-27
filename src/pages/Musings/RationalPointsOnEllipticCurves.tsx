@@ -63,49 +63,6 @@ export default function RationalPointsOnEllipticCurves() {
           </p>
           <div className="imagecaptioncontainer">
             <img src={pythagoreanimage} />
-            By{" "}
-            <a
-              href="https://en.wikipedia.org/wiki/User:Wapcaplet"
-              title="en:User:Wapcaplet"
-            >
-              en:User:Wapcaplet
-            </a>{" "}
-            - Transwikied from en:. Originally created by{" "}
-            <a
-              href="https://en.wikipedia.org/wiki/User:Michael_Hardy"
-              title="en:User:Michael Hardy"
-            >
-              en:User:Michael Hardy
-            </a>
-            , then scaled, with colour and labels being added by{" "}
-            <a
-              href="https://en.wikipedia.org/wiki/User:Wapcaplet"
-              title="en:User:Wapcaplet"
-            >
-              en:User:Wapcaplet
-            </a>
-            , transformed in svg format by{" "}
-            <a
-              href="https://fr.wikipedia.org/wiki/Utilisateur:Steff"
-              title="fr:Utilisateur:Steff"
-            >
-              fr:Utilisateur:Steff
-            </a>
-            , changed colors and font by{" "}
-            <a href="https://de.wikipedia.org/wiki/Leo2004" title="de:Leo2004">
-              de:Leo2004
-            </a>
-            ,{" "}
-            <a
-              href="http://creativecommons.org/licenses/by-sa/3.0/"
-              title="Creative Commons Attribution-Share Alike 3.0"
-            >
-              CC BY-SA 3.0
-            </a>
-            ,{" "}
-            <a href="https://commons.wikimedia.org/w/index.php?curid=640875">
-              Link
-            </a>
           </div>
           <p>
             Whole number solutions to the {PythagoreanTheorem} have been known
@@ -155,17 +112,6 @@ export default function RationalPointsOnEllipticCurves() {
 
           <div className="imagecaptioncontainer">
             <img src={bijection} style={{ width: "100%" }} />
-            By{" "}
-            <a
-              href="https://en.wikipedia.org/wiki/User:Schapel"
-              title="en:User:Schapel"
-            >
-              Schapel
-            </a>{" "}
-            - <span lang="en">Own work</span>, Public Domain,{" "}
-            <a href="https://commons.wikimedia.org/w/index.php?curid=1059694">
-              Link
-            </a>
           </div>
 
           <p>
@@ -317,7 +263,6 @@ export default function RationalPointsOnEllipticCurves() {
 
           <div className="imagecaptioncontainer">
             <img src={pierreFermat} style={{ width: "100%" }} />
-            Photo of Pierre de Fermat (Unknown author)
           </div>
 
           <p>
@@ -416,6 +361,50 @@ export default function RationalPointsOnEllipticCurves() {
             rational point on the curve!
           </p>
         </section>
+
+        <div className="imageAttribution">
+          <p>
+            <a
+              href="https://commons.wikimedia.org/w/index.php?curid=640875"
+              target="_blank"
+            >
+              Pythagorean theorem illustration
+            </a>{" "}
+            by Michael Hardy, Wapcaplet, Steff, and Leo2004, from Wikimedia
+            Commons. The original and this version, modified to use white lines
+            and a transparent background, are both licensed under{" "}
+            <a
+              href="https://creativecommons.org/licenses/by-sa/3.0/"
+              target="_blank"
+            >
+              CC BY-SA 3.0
+            </a>
+            .
+          </p>
+
+          <p>
+            <a
+              href="https://commons.wikimedia.org/w/index.php?curid=1059694"
+              target="_blank"
+            >
+              Bijection diagram
+            </a>{" "}
+            by Schapel, from Wikimedia Commons. The original is public domain;
+            it was modified to use white lines and a transparent background.
+          </p>
+
+          <p>
+            The{" "}
+            <a
+              href="https://commons.wikimedia.org/wiki/File:Pierre_de_Fermat.jpg"
+              target="_blank"
+            >
+              portrait of Pierre de Fermat
+            </a>{" "}
+            is by an unknown 17th-century artist, from Wikimedia Commons, public
+            domain.
+          </p>
+        </div>
       </article>
       <Footer />
     </>

@@ -94,6 +94,12 @@ section {
   text-align: center;
 }
 
+.imageAttribution {
+  font-size: var(--tiny-font-size);
+  font-style: italic;
+  margin-top: var(--large-space);
+}
+
 img {
   border-radius: 10%;
 }
