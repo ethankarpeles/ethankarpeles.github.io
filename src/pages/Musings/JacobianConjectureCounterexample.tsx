@@ -467,9 +467,9 @@ export default function JacobianConjectureCounterexample() {
           <Latex
             math="\begin{align*}
                     F\left(\begin{bmatrix} 0 \\ 0 \\ -1/4 \end{bmatrix}\right)
-                    &= \begin{bmatrix} -1/4 \\ 0 \\ 0 \end{bmatrix} \\
+                    &= \begin{bmatrix} -1/4 \\ 0 \\ 0 \end{bmatrix} \\[2.5em]
                     F\left(\begin{bmatrix} 1 \\ -3/2 \\ 13/2 \end{bmatrix}\right)
-                    &= \begin{bmatrix} -1/4 \\ 0 \\ 0 \end{bmatrix} \\
+                    &= \begin{bmatrix} -1/4 \\ 0 \\ 0 \end{bmatrix} \\[2.5em]
                     F\left(\begin{bmatrix} -1 \\ 3/2 \\ 13/2 \end{bmatrix}\right)
                     &= \begin{bmatrix} -1/4 \\ 0 \\ 0 \end{bmatrix}
                 \end{align*}"
