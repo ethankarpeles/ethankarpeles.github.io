@@ -8,6 +8,7 @@
   --font-family-main: Arial, sans-serif;
   --regular-font-size: clamp(1rem, 1.2vw, 1.2rem);
   --small-font-size: clamp(0.8rem, 1vw, 1rem);
+  --tiny-font-size: clamp(0.6rem, 0.72vw, 0.72rem);
   --card-font-size: clamp(5px, 1.9vw, 14.7px);
 
   --content-width: 80%;
@@ -88,7 +89,7 @@ section {
 .imagecaptioncontainer {
   margin: 0 auto;
   width: clamp(250px, 40%, 400px);
-  font-size: calc(var(--regular-font-size) * 0.6);
+  font-size: var(--tiny-font-size);
   font-style: italic;
   text-align: center;
 }
