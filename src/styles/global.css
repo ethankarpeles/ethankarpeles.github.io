@@ -1,9 +1,9 @@
 :root {
   --color-bg-dark: hsl(217, 32%, 11%);
   --color-bg-surface: hsl(217, 33%, 17%);
-  --color-secondary: hsl(217, 33%, 50%);
+  --color-secondary: hsl(217, 33%, 73%);
   --color-accent: hsl(192, 90%, 67%);
-  --color-text: hsl(217, 33%, 96%);
+  --color-text: hsl(0, 0%, 100%);
 
   --link-shadow: 0.5px 0.5px 1px var(--color-accent);
   --secondary-box-shadow: 0 0 var(--tiny-space) var(--color-secondary);
