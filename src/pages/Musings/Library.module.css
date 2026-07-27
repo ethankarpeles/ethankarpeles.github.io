@@ -41,6 +41,7 @@
   composes: clampLines;
 
   font-size: var(--card-font-size);
+  font-weight: bold;
   margin-bottom: var(--small-space);
 }
 
@@ -48,6 +49,7 @@
   composes: clampLines;
 
   font-size: var(--card-font-size);
+  font-weight: normal;
   color: var(--color-secondary);
   margin-bottom: 0;
 }
