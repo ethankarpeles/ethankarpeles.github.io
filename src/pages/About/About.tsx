@@ -1,5 +1,6 @@
 import Navbar from "@components/Navbar/Navbar.tsx";
 import Footer from "@components/Footer/Footer.tsx";
+import ExternalLink from "@components/ExternalLink/ExternalLink.tsx";
 import styles from "./About.module.css";
 import headshot from "@assets/images/professional-headshot.png";
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
@@ -14,33 +15,26 @@ export default function About() {
 }
 
 function Content() {
-  const PMG = (
-    <a href="https://www.pmg.com/" target="_blank">
-      PMG
-    </a>
-  );
+  const PMG = <ExternalLink href="https://www.pmg.com/">PMG</ExternalLink>;
   const UNT = (
-    <a href="https://www.unt.edu/" target="_blank">
+    <ExternalLink href="https://www.unt.edu/">
       University of North Texas
-    </a>
+    </ExternalLink>
   );
   const UNTMath = (
-    <a href="https://math.unt.edu/" target="_blank">
+    <ExternalLink href="https://math.unt.edu/">
       UNT Department of Mathematics
-    </a>
+    </ExternalLink>
   );
   const Outstanding = (
-    <a
-      href="https://newsletter.math.unt.edu/2024/#SecDeptAwards-1"
-      target="_blank"
-    >
+    <ExternalLink href="https://newsletter.math.unt.edu/2024/#SecDeptAwards-1">
       Outstanding Undergraduate Student
-    </a>
+    </ExternalLink>
   );
   const STaRS = (
-    <a href="https://math.unt.edu/research/stars.html" target="_blank">
+    <ExternalLink href="https://math.unt.edu/research/stars.html">
       Students Talk about Research Seminar
-    </a>
+    </ExternalLink>
   );
 
   return (
@@ -81,12 +75,12 @@ function Content() {
 function Socials() {
   return (
     <>
-      <a href="https://www.linkedin.com/in/ethankarpeles/" target="_blank">
+      <ExternalLink href="https://www.linkedin.com/in/ethankarpeles/">
         <AiFillLinkedin className={styles.social} />
-      </a>
-      <a href="https://github.com/ethankarpeles" target="_blank">
+      </ExternalLink>
+      <ExternalLink href="https://github.com/ethankarpeles">
         <AiFillGithub className={styles.social} />
-      </a>
+      </ExternalLink>
     </>
   );
 }

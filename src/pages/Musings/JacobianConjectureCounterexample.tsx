@@ -1,5 +1,6 @@
 import Footer from "@components/Footer/Footer.tsx";
 import Latex from "@components/Latex/Latex.tsx";
+import ExternalLink from "@components/ExternalLink/ExternalLink.tsx";
 import TwitterPost from "@components/TwitterPost/TwitterPost.tsx";
 
 export default function JacobianConjectureCounterexample() {
@@ -12,12 +13,9 @@ export default function JacobianConjectureCounterexample() {
         <section>
           <p>
             A counterexample to the{" "}
-            <a
-              href="https://en.wikipedia.org/wiki/Jacobian_conjecture"
-              target="_blank"
-            >
+            <ExternalLink href="https://en.wikipedia.org/wiki/Jacobian_conjecture">
               Jacobian Conjecture
-            </a>{" "}
+            </ExternalLink>{" "}
             for <Latex math="n > 2" /> was recently announced by Levent Alpöge,
             who used Anthropic's Fable model to help find the result.
           </p>
@@ -47,12 +45,9 @@ export default function JacobianConjectureCounterexample() {
 
           <p>
             A{" "}
-            <a
-              href="https://en.wikipedia.org/wiki/Binary_operation"
-              target="_blank"
-            >
+            <ExternalLink href="https://en.wikipedia.org/wiki/Binary_operation">
               binary operation
-            </a>{" "}
+            </ExternalLink>{" "}
             <Latex math="*" /> on a set <Latex math="G" /> is a function{" "}
             <Latex math="* \colon G \times G \to G" />. For any{" "}
             <Latex math="a, b \in G" />, we write <Latex math="a * b" /> for{" "}
@@ -61,12 +56,9 @@ export default function JacobianConjectureCounterexample() {
 
           <p>
             A{" "}
-            <a
-              href="https://en.wikipedia.org/wiki/Group_(mathematics)"
-              target="_blank"
-            >
+            <ExternalLink href="https://en.wikipedia.org/wiki/Group_(mathematics)">
               group
-            </a>{" "}
+            </ExternalLink>{" "}
             is a set <Latex math="G" /> equipped with a binary operation
             satisfying the following properties:
           </p>
@@ -82,50 +74,35 @@ export default function JacobianConjectureCounterexample() {
 
           <p>
             The first property is called being{" "}
-            <a
-              href="https://en.wikipedia.org/wiki/Associative_property"
-              target="_blank"
-            >
+            <ExternalLink href="https://en.wikipedia.org/wiki/Associative_property">
               associative
-            </a>
+            </ExternalLink>
             , in the second property we call <Latex math="e" /> the{" "}
-            <a
-              href="https://en.wikipedia.org/wiki/Identity_element"
-              target="_blank"
-            >
+            <ExternalLink href="https://en.wikipedia.org/wiki/Identity_element">
               identity
-            </a>{" "}
+            </ExternalLink>{" "}
             of <Latex math="G" />, and <Latex math="a^{-1}" /> in the third
             property is called the{" "}
-            <a
-              href="https://en.wikipedia.org/wiki/Inverse_element"
-              target="_blank"
-            >
+            <ExternalLink href="https://en.wikipedia.org/wiki/Inverse_element">
               inverse
-            </a>{" "}
+            </ExternalLink>{" "}
             of <Latex math="a" />.
           </p>
 
           <p>
             Additionally, we say a group is{" "}
-            <a
-              href="https://en.wikipedia.org/wiki/Abelian_group"
-              target="_blank"
-            >
+            <ExternalLink href="https://en.wikipedia.org/wiki/Abelian_group">
               commutative
-            </a>{" "}
+            </ExternalLink>{" "}
             if:
           </p>
           <Latex math="\forall a, b \in G \quad a * b = b * a" center />
 
           <p>
             A{" "}
-            <a
-              href="https://en.wikipedia.org/wiki/Field_(mathematics)"
-              target="_blank"
-            >
+            <ExternalLink href="https://en.wikipedia.org/wiki/Field_(mathematics)">
               field
-            </a>{" "}
+            </ExternalLink>{" "}
             <Latex math="F" /> is a set with two binary operations{" "}
             <Latex math="+" /> and <Latex math="\times" /> (called addition and
             multiplication respectively) satisfying the following properties:
@@ -156,12 +133,9 @@ export default function JacobianConjectureCounterexample() {
 
           <p>
             A fundamental property of any given field is its{" "}
-            <a
-              href="https://en.wikipedia.org/wiki/Characteristic_(algebra)"
-              target="_blank"
-            >
+            <ExternalLink href="https://en.wikipedia.org/wiki/Characteristic_(algebra)">
               characteristic
-            </a>
+            </ExternalLink>
             . It is defined to be the smallest positive integer{" "}
             <Latex math="n" /> such that:
           </p>
@@ -236,12 +210,9 @@ export default function JacobianConjectureCounterexample() {
 
           <p>
             For one of the polynomials <Latex math="f_i" />, we can define the{" "}
-            <a
-              href="https://en.wikipedia.org/wiki/Partial_derivative"
-              target="_blank"
-            >
+            <ExternalLink href="https://en.wikipedia.org/wiki/Partial_derivative">
               partial derivative
-            </a>{" "}
+            </ExternalLink>{" "}
             of <Latex math="f_i" /> with respect to the variable{" "}
             <Latex math="x_j" /> as a purely algebraic object as follows. For
             each term of the polynomial, we do the following:
@@ -405,12 +376,9 @@ export default function JacobianConjectureCounterexample() {
 
           <p>
             Now, the{" "}
-            <a
-              href="https://en.wikipedia.org/wiki/Jacobian_conjecture"
-              target="_blank"
-            >
+            <ExternalLink href="https://en.wikipedia.org/wiki/Jacobian_conjecture">
               Jacobian conjecture
-            </a>{" "}
+            </ExternalLink>{" "}
             is the partial converse to this fact:
           </p>
 
@@ -449,12 +417,9 @@ export default function JacobianConjectureCounterexample() {
           <p>
             Calculating the Jacobian determinant verifies that{" "}
             <Latex math="J_F = -2" />. The computation can be checked with{" "}
-            <a
-              href="https://www.wolframalpha.com/input?i=Det%5BD%5B%7B%281%2Bx+y%29%5E3+z+%2B+y%5E2+%281+%2B+x+y%29+%284+%2B+3x+y%29%2C+y+%2B+3x+%281+%2B+x+y%29%5E2+z+%2B+3x+y%5E2+%284+%2B+3x+y%29%2C+2x+-+3x%5E2+y+-+x%5E3+z%7D%2C+%7B%7Bx%2Cy%2Cz%7D%7D%5D%5D"
-              target="_blank"
-            >
+            <ExternalLink href="https://www.wolframalpha.com/input?i=Det%5BD%5B%7B%281%2Bx+y%29%5E3+z+%2B+y%5E2+%281+%2B+x+y%29+%284+%2B+3x+y%29%2C+y+%2B+3x+%281+%2B+x+y%29%5E2+z+%2B+3x+y%5E2+%284+%2B+3x+y%29%2C+2x+-+3x%5E2+y+-+x%5E3+z%7D%2C+%7B%7Bx%2Cy%2Cz%7D%7D%5D%5D">
               WolframAlpha
-            </a>
+            </ExternalLink>
             .
           </p>
 
@@ -485,12 +450,9 @@ export default function JacobianConjectureCounterexample() {
 
           <p>
             For a deeper geometric explanation, I highly recommend reading{" "}
-            <a
-              href="https://terrytao.wordpress.com/2026/07/21/a-digestion-of-the-jacobian-conjecture-counterexample/"
-              target="_blank"
-            >
+            <ExternalLink href="https://terrytao.wordpress.com/2026/07/21/a-digestion-of-the-jacobian-conjecture-counterexample/">
               Terence Tao's post
-            </a>{" "}
+            </ExternalLink>{" "}
             on this topic. He talks about the result at a much more general
             level, and it was an incredibly interesting read.
           </p>

@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import ExternalLink from "@components/ExternalLink/ExternalLink.tsx";
 
 const widgetsScript = "https://platform.x.com/widgets.js";
 
@@ -18,7 +19,7 @@ export default function TwitterPost({ url }: { url: string }) {
     }
 
     const existingScript = document.querySelector<HTMLScriptElement>(
-      `script[src="${widgetsScript}"]`,
+      `script[src="${widgetsScript}"]`
     );
     const script = existingScript ?? document.createElement("script");
 
@@ -35,7 +36,7 @@ export default function TwitterPost({ url }: { url: string }) {
 
   return (
     <blockquote className="twitter-tweet" data-align="center">
-      <a href={url}>View post on X</a>
+      <ExternalLink href={url}>View post on X</ExternalLink>
     </blockquote>
   );
 }

@@ -1,5 +1,6 @@
 import Latex from "@components/Latex/Latex.tsx";
 import Footer from "@components/Footer/Footer.tsx";
+import ExternalLink from "@components/ExternalLink/ExternalLink.tsx";
 import stars from "@assets/images/stars.png";
 import pythagoreanimage from "@assets/images/pythagorean.svg";
 import bijection from "@assets/images/bijection.png";
@@ -10,19 +11,19 @@ import fermatCurves from "@assets/images/fermat-curves.png";
 
 export default function RationalPointsOnEllipticCurves() {
   const PythagoreanTheorem = (
-    <a href="https://en.wikipedia.org/wiki/Pythagorean_theorem" target="_blank">
+    <ExternalLink href="https://en.wikipedia.org/wiki/Pythagorean_theorem">
       Pythagorean Theorem
-    </a>
+    </ExternalLink>
   );
   const PythagoreanTriple = (
-    <a href="https://en.wikipedia.org/wiki/Pythagorean_triple" target="_blank">
+    <ExternalLink href="https://en.wikipedia.org/wiki/Pythagorean_triple">
       Pythagorean Triple
-    </a>
+    </ExternalLink>
   );
   const PrimitivePythagoreanTriple = (
-    <a href="https://en.wikipedia.org/wiki/Pythagorean_triple" target="_blank">
+    <ExternalLink href="https://en.wikipedia.org/wiki/Pythagorean_triple">
       primitive Pythagorean Triple
-    </a>
+    </ExternalLink>
   );
 
   return (
@@ -34,9 +35,9 @@ export default function RationalPointsOnEllipticCurves() {
 
           <p>
             The information on this page has been extracted from my{" "}
-            <a href="https://math.unt.edu/research/stars.html" target="_blank">
+            <ExternalLink href="https://math.unt.edu/research/stars.html">
               Students Talk about Research Seminar
-            </a>{" "}
+            </ExternalLink>{" "}
             (STaRS) presentation given on November 1, 2024. The goal of the
             presentation was to introduce undergraduate students with a
             precalculus level mathematical background to Fermat's Last Theorem
@@ -60,12 +61,9 @@ export default function RationalPointsOnEllipticCurves() {
           <p>
             Whole number solutions to the {PythagoreanTheorem} have been known
             for millennia. In fact, there is a{" "}
-            <a
-              href="https://en.wikipedia.org/wiki/Plimpton_322"
-              target="_blank"
-            >
+            <ExternalLink href="https://en.wikipedia.org/wiki/Plimpton_322">
               Babylonian clay tablet
-            </a>{" "}
+            </ExternalLink>{" "}
             with a list of them believed to have been written around 1800 BC.
             Any set of three positive integers which are the side lengths of a
             right triangle is called a {PythagoreanTriple}, and if these three
@@ -97,9 +95,9 @@ export default function RationalPointsOnEllipticCurves() {
             there should even be infinitely many of them. To answer this
             question, we will first need to define what mathematicians mean when
             they say two sets have the same size (or{" "}
-            <a href="https://en.wikipedia.org/wiki/Cardinality" target="_blank">
+            <ExternalLink href="https://en.wikipedia.org/wiki/Cardinality">
               cardinality
-            </a>
+            </ExternalLink>
             ).
           </p>
 
@@ -111,9 +109,9 @@ export default function RationalPointsOnEllipticCurves() {
             stadium is sitting in a seat and all seats have a person sitting in
             them, then we know there are the same number of seats as people. The
             technical term for this is a{" "}
-            <a href="https://en.wikipedia.org/wiki/Bijection" target="_blank">
+            <ExternalLink href="https://en.wikipedia.org/wiki/Bijection">
               bijection
-            </a>{" "}
+            </ExternalLink>{" "}
             of sets.
           </p>
         </section>
@@ -135,12 +133,9 @@ export default function RationalPointsOnEllipticCurves() {
             We call a point <Latex math="(x, y)" /> in 2D space a{" "}
             <em>rational point</em> if both coordinates{" "}
             <Latex math="x \text{ and } y" /> of the point are{" "}
-            <a
-              href="https://en.wikipedia.org/wiki/Rational_number"
-              target="_blank"
-            >
+            <ExternalLink href="https://en.wikipedia.org/wiki/Rational_number">
               rational numbers
-            </a>
+            </ExternalLink>
             . That is, both <Latex math="x \text{ and } y" /> can be expressed
             as a ratio of integers with non-zero denominator. For example, the
             point <Latex math="(-\frac 1 3, \frac 4 5)" /> is rational, but the
@@ -358,43 +353,31 @@ export default function RationalPointsOnEllipticCurves() {
 
         <div className="attribution">
           <p>
-            <a
-              href="https://commons.wikimedia.org/w/index.php?curid=640875"
-              target="_blank"
-            >
+            <ExternalLink href="https://commons.wikimedia.org/w/index.php?curid=640875">
               Pythagorean theorem illustration
-            </a>{" "}
+            </ExternalLink>{" "}
             by Michael Hardy, Wapcaplet, Steff, and Leo2004, from Wikimedia
             Commons. The original and this version, modified to use white lines
             and a transparent background, are both licensed under{" "}
-            <a
-              href="https://creativecommons.org/licenses/by-sa/3.0/"
-              target="_blank"
-            >
+            <ExternalLink href="https://creativecommons.org/licenses/by-sa/3.0/">
               CC BY-SA 3.0
-            </a>
+            </ExternalLink>
             .
           </p>
 
           <p>
-            <a
-              href="https://commons.wikimedia.org/w/index.php?curid=1059694"
-              target="_blank"
-            >
+            <ExternalLink href="https://commons.wikimedia.org/w/index.php?curid=1059694">
               Bijection diagram
-            </a>{" "}
+            </ExternalLink>{" "}
             by Schapel, from Wikimedia Commons. The original is public domain;
             it was modified to use white lines and a transparent background.
           </p>
 
           <p>
             The{" "}
-            <a
-              href="https://commons.wikimedia.org/wiki/File:Pierre_de_Fermat.jpg"
-              target="_blank"
-            >
+            <ExternalLink href="https://commons.wikimedia.org/wiki/File:Pierre_de_Fermat.jpg">
               portrait of Pierre de Fermat
-            </a>{" "}
+            </ExternalLink>{" "}
             is by an unknown 17th-century artist, from Wikimedia Commons, public
             domain.
           </p>
