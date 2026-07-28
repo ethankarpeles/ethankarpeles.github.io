@@ -17,7 +17,7 @@
   --content-width: 80%;
 
   --large-4x: 640px;
-  --large-3x: 360px;
+  --large-3x: 320px;
   --large-2x: 160px;
   --large-x: 80px;
   --large: 40px;
@@ -102,20 +102,6 @@ section {
 .graphic > img,
 .graphic > iframe {
   width: 100%;
-}
-
-.responsive-float {
-  margin-bottom: var(--medium);
-  width: 100%;
-}
-
-@media (min-width: 950px) {
-  .responsive-float {
-    float: right;
-    margin-left: var(--large);
-    max-width: var(--large-4x);
-    width: 50%;
-  }
 }
 
 .attribution {

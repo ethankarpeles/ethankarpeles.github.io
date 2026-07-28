@@ -1,3 +1,20 @@
+.description {
+  flex: 1 1 var(--large-3x);
+}
+
+.headshot {
+  flex: 1 1 10%;
+
+  max-width: var(--large-4x);
+  min-width: var(--large-3x);
+
+  align-self: flex-start;
+}
+
+.about {
+  gap: var(--medium);
+}
+
 .social {
   --social-width: clamp(10px, 8vw, 32px);
 
