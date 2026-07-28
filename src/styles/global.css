@@ -17,7 +17,7 @@
   --content-width: 80%;
 
   --large-4x: 640px;
-  --large-3x: 320px;
+  --large-3x: 500px;
   --large-2x: 160px;
   --large-x: 80px;
   --large: 40px;
@@ -93,13 +93,14 @@ section {
 .graphic {
   margin: var(--medium) auto;
   width: 100%;
-  max-width: min(var(--large-4x), 100%);
+  max-width: min(var(--large-3x), 100%);
   font-size: var(--small-font-size);
   font-style: italic;
   text-align: center;
 }
 
-.graphic > img {
+.graphic > img,
+.graphic > iframe {
   width: 100%;
 }
 
