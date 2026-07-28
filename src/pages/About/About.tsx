@@ -53,7 +53,8 @@ function Content() {
         <Socials />
       </header>
       <section>
-        <div className="imagewordcontainer">
+        <div>
+          <img src={headshot} className="responsive-float" />
           <p>Welcome! I am an AI & Software Engineer I at {PMG}.</p>
           <p>
             My software engineering journey is grounded in a strong quantitative
@@ -71,7 +72,6 @@ function Content() {
             knowledge to solve complex problems in marketing technology.
           </p>
         </div>
-        <img src={headshot} className={styles.headshot} />
       </section>
       <Footer />
     </article>

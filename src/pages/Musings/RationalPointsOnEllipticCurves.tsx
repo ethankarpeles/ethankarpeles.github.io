@@ -1,7 +1,6 @@
 import Latex from "@components/Latex/Latex.tsx";
 import Footer from "@components/Footer/Footer.tsx";
 import stars from "@assets/images/stars.png";
-import styles from "./RationalPointsOnEllipticCurves.module.css";
 import pythagoreanimage from "@assets/images/pythagorean.svg";
 import bijection from "@assets/images/bijection.png";
 import parameterization from "@assets/images/parameterization-of-unit-circle.png";
@@ -31,23 +30,19 @@ export default function RationalPointsOnEllipticCurves() {
       <article>
         <h1>Rational Points on Elliptic Curves</h1>
         <section>
-          <div className="imagewordcontainer">
-            <h2>Introduction</h2>
-            <p>
-              The information on this page has been extracted from my{" "}
-              <a
-                href="https://math.unt.edu/research/stars.html"
-                target="_blank"
-              >
-                Students Talk about Research Seminar
-              </a>{" "}
-              (STaRS) presentation given on November 1, 2024. The goal of the
-              presentation was to introduce undergraduate students with a
-              precalculus level mathematical background to Fermat's Last Theorem
-              and elliptic curves.
-            </p>
-          </div>
-          <img src={stars} className={styles.stars} />
+          <h2>Introduction</h2>
+
+          <p>
+            The information on this page has been extracted from my{" "}
+            <a href="https://math.unt.edu/research/stars.html" target="_blank">
+              Students Talk about Research Seminar
+            </a>{" "}
+            (STaRS) presentation given on November 1, 2024. The goal of the
+            presentation was to introduce undergraduate students with a
+            precalculus level mathematical background to Fermat's Last Theorem
+            and elliptic curves.
+          </p>
+          <img src={stars} className="graphic" />
 
           <h2>Triangles</h2>
           <p>
@@ -61,9 +56,7 @@ export default function RationalPointsOnEllipticCurves() {
             In the image below, we note that the area of the purple square is
             equal to the sum of the areas of the red and blue squares.
           </p>
-          <div className="imagecaptioncontainer">
-            <img src={pythagoreanimage} />
-          </div>
+          <img src={pythagoreanimage} className="graphic" />
           <p>
             Whole number solutions to the {PythagoreanTheorem} have been known
             for millennia. In fact, there is a{" "}
@@ -110,9 +103,7 @@ export default function RationalPointsOnEllipticCurves() {
             ).
           </p>
 
-          <div className="imagecaptioncontainer">
-            <img src={bijection} style={{ width: "100%" }} />
-          </div>
+          <img src={bijection} className="graphic" />
 
           <p>
             In mathematics, we say two sets <em>have the same cardinality</em>{" "}
@@ -135,7 +126,10 @@ export default function RationalPointsOnEllipticCurves() {
             the origin with the equation <Latex math="x^2 + y^2 = 1" />.
           </p>
 
-          <iframe src="https://www.desmos.com/calculator/wch7cxrqu4?embed" />
+          <iframe
+            src="https://www.desmos.com/calculator/wch7cxrqu4?embed"
+            className="graphic"
+          />
 
           <p>
             We call a point <Latex math="(x, y)" /> in 2D space a{" "}
@@ -190,10 +184,10 @@ export default function RationalPointsOnEllipticCurves() {
             unit circle. The other direction of this would be all of these steps
             in reverse.
           </p>
-          <iframe src="https://www.desmos.com/calculator/eq25prgp6t?embed" />
-          <p style={{ textAlign: "center" }}>
+          <div className="graphic">
+            <iframe src="https://www.desmos.com/calculator/eq25prgp6t?embed" />
             Can you find the (3, 4, 5) triangle?
-          </p>
+          </div>
         </section>
         <section>
           <h2>Counting Rational Points on the Unit Circle</h2>
@@ -201,7 +195,10 @@ export default function RationalPointsOnEllipticCurves() {
             On the unit circle, consider all the lines that look like the black
             one in the graph below.
           </p>
-          <iframe src="https://www.desmos.com/calculator/ygsxmkhkyg?embed" />
+          <iframe
+            src="https://www.desmos.com/calculator/ygsxmkhkyg?embed"
+            className="graphic"
+          />
           <p>
             Recall that the equation for a line is <Latex math="y=mx+b" /> where{" "}
             <Latex math="m" /> is the slope and <Latex math="b" /> is the
@@ -237,9 +234,7 @@ export default function RationalPointsOnEllipticCurves() {
             from any rational number <Latex math="t" /> and vice versa.
           </p>
 
-          <div className="imagecaptioncontainer">
-            <img src={parameterization} style={{ width: "100%" }} />
-          </div>
+          <img src={parameterization} className="graphic" />
 
           <p>
             We have shown that the set of all rational numbers, the set of
@@ -261,9 +256,7 @@ export default function RationalPointsOnEllipticCurves() {
             Wiles using deep results related to elliptic curves.
           </p>
 
-          <div className="imagecaptioncontainer">
-            <img src={pierreFermat} style={{ width: "100%" }} />
-          </div>
+          <img src={pierreFermat} className="graphic" />
 
           <p>
             If we apply the same process that we used before of dividing out by{" "}
@@ -271,8 +264,8 @@ export default function RationalPointsOnEllipticCurves() {
             will get Fermat curves which have the equation{" "}
             <Latex math="x^n + y^n = 1" />.
           </p>
-          <div className="imagecaptioncontainer">
-            <img src={fermatCurves} style={{ width: "100%" }} />
+          <div className="graphic">
+            <img src={fermatCurves} />
             Examples of Fermat curves
           </div>
 
@@ -296,7 +289,7 @@ export default function RationalPointsOnEllipticCurves() {
             with the following properties (let <Latex math="a, b, c" /> be in
             our group):
           </p>
-          <ul style={{ width: "100%" }}>
+          <ul>
             <li>Associativity</li>
             <Latex math="a + (b + c) = (a + b) + c" center />
             <li>Identity</li>
@@ -334,15 +327,16 @@ export default function RationalPointsOnEllipticCurves() {
               the graph by a purple X.
             </li>
           </ol>
-          <iframe src="https://www.desmos.com/calculator/pkafnv67h2?embed" />
+          <iframe
+            src="https://www.desmos.com/calculator/pkafnv67h2?embed"
+            className="graphic"
+          />
           <p>
             In this group, we call our identity <Latex math="\mathcal{O}" />,
             and we define it to be above every point on the curve. Our inverses
             are our points flipped across the x-axis.
           </p>
-          <div className="imagecaptioncontainer">
-            <img src={negatives} style={{ width: "100%" }} />
-          </div>
+          <img src={negatives} className="graphic" />
         </section>
         <section>
           <h2>Mordell-Weil Theorem</h2>
@@ -362,7 +356,7 @@ export default function RationalPointsOnEllipticCurves() {
           </p>
         </section>
 
-        <div className="imageAttribution">
+        <div className="attribution">
           <p>
             <a
               href="https://commons.wikimedia.org/w/index.php?curid=640875"

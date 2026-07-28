@@ -6,7 +6,7 @@
   --color-text: hsl(0, 0%, 100%);
 
   --link-shadow: 0.5px 0.5px 1px var(--color-accent);
-  --secondary-box-shadow: 0 0 var(--tiny-space) var(--color-secondary);
+  --secondary-box-shadow: 0 0 var(--tiny) var(--color-secondary);
 
   --font-family-main: Arial, sans-serif;
   --card-font-size: clamp(5px, 2.1vw, 18px);
@@ -16,10 +16,14 @@
 
   --content-width: 80%;
 
-  --large-space: 40px;
-  --medium-space: 20px;
-  --small-space: 10px;
-  --tiny-space: 5px;
+  --large-4x: 640px;
+  --large-3x: 320px;
+  --large-2x: 160px;
+  --large-x: 80px;
+  --large: 40px;
+  --medium: 20px;
+  --small: 10px;
+  --tiny: 5px;
 }
 
 * {
@@ -48,7 +52,7 @@ h2,
 h3,
 h4,
 h5 {
-  margin: var(--small-space) 0 0 0;
+  margin: var(--small) 0 0 0;
   width: 100%;
 }
 
@@ -56,8 +60,10 @@ h5 {
   color: var(--color-text);
 }
 
-p {
-  margin: var(--small-space) 0;
+p,
+ol,
+ul {
+  margin: var(--small) 0;
   width: 100%;
 }
 
@@ -68,7 +74,7 @@ article {
 
   width: var(--content-width);
   margin: 0 auto;
-  padding-top: var(--large-space);
+  padding-top: var(--large);
 }
 
 .articledate {
@@ -80,27 +86,41 @@ section {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  margin-top: var(--medium-space);
+  margin-top: var(--medium);
   align-items: center;
 }
 
-.imagewordcontainer {
-  flex: 1 1 300px;
-  margin-right: var(--small-space);
-}
-
-.imagecaptioncontainer {
-  margin: 0 auto;
-  width: clamp(250px, 40%, 400px);
-  font-size: var(--tiny-font-size);
+.graphic {
+  margin: var(--medium) auto;
+  width: 100%;
+  max-width: min(var(--large-4x), 100%);
+  font-size: var(--small-font-size);
   font-style: italic;
   text-align: center;
 }
 
-.imageAttribution {
+.graphic > img {
+  width: 100%;
+}
+
+.responsive-float {
+  margin-bottom: var(--medium);
+  width: 100%;
+}
+
+@media (min-width: 950px) {
+  .responsive-float {
+    float: right;
+    margin-left: var(--large);
+    max-width: var(--large-4x);
+    width: 50%;
+  }
+}
+
+.attribution {
   font-size: var(--tiny-font-size);
   font-style: italic;
-  margin-top: var(--large-space);
+  margin-top: var(--large);
 }
 
 img {
@@ -115,12 +135,11 @@ object {
 iframe {
   margin: 0 auto;
   aspect-ratio: 1 / 1;
-  max-width: 500px;
+  max-width: var(--large-4x);
 }
 
 a {
   color: var(--color-accent);
-  font-weight: bolder;
   text-decoration: none;
 }
 

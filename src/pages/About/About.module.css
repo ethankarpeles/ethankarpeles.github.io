@@ -1,23 +1,11 @@
-.headshot {
-  --headshot-width: 10%;
-
-  display: flex;
-  flex: 1 1 var(--headshot-width);
-
-  max-width: 100%;
-  min-width: 300px;
-
-  align-self: flex-start;
-}
-
 .social {
   --social-width: clamp(10px, 8vw, 32px);
 
   width: var(--social-width);
   height: var(--social-width);
 
-  margin-right: var(--small-space);
-  margin-top: var(--small-space);
+  margin-right: var(--small);
+  margin-top: var(--small);
 }
 
 .social:hover {

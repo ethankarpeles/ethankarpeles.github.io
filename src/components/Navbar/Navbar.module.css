@@ -26,15 +26,16 @@
   color: var(--color-text);
 }
 
+.navlink {
+  position: relative;
+  left: var(--small);
+  padding: var(--small);
+  font-weight: bold;
+}
+
 .navlinks {
   display: flex;
   align-items: center;
-}
-
-.navlink {
-  position: relative;
-  left: var(--small-space);
-  padding: var(--small-space);
 }
 
 .navlogo {

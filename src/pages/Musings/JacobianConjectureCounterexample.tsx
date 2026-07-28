@@ -246,12 +246,12 @@ export default function JacobianConjectureCounterexample() {
             <Latex math="x_j" /> as a purely algebraic object as follows. For
             each term of the polynomial, we do the following:
           </p>
-          <ul style={{ width: "100%" }}>
+          <ul>
             <li>
               If the term does not have a factor of <Latex math="x_j" />, it
               contributes zero to the partial derivative.
             </li>
-            <li style={{ width: "100%" }}>
+            <li>
               Otherwise, we write the term as:
               <Latex math="c x_1^{k_1} \cdots x_n^{k_n}" center />
               <p>

@@ -1,18 +1,18 @@
 .cards {
   display: flex;
   flex-direction: column;
-  gap: var(--medium-space);
-  margin-top: var(--medium-space);
+  gap: var(--medium);
+  margin-top: var(--medium);
 }
 
 .card {
   width: 100%;
   display: flex;
   flex-direction: column;
-  padding: var(--medium-space) var(--medium-space);
+  padding: var(--medium) var(--medium);
 
   background: var(--color-bg-surface);
-  border-left: var(--tiny-space) solid var(--color-accent);
+  border-left: var(--tiny) solid var(--color-accent);
 
   transition:
     transform 0.1s,
@@ -21,7 +21,7 @@
 }
 
 .card:hover {
-  transform: translateX(var(--tiny-space));
+  transform: translateX(var(--tiny));
   text-shadow: none;
   box-shadow: var(--secondary-box-shadow);
 }
@@ -42,7 +42,7 @@
 
   font-size: var(--card-font-size);
   font-weight: bold;
-  margin-bottom: var(--small-space);
+  margin-bottom: var(--small);
 }
 
 .description {
@@ -55,6 +55,6 @@
 }
 
 .library {
-  width: 650px;
+  width: var(--large-4x);
   max-width: var(--content-width);
 }
