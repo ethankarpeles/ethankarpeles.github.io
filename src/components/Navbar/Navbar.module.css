@@ -1,6 +1,6 @@
 :root {
   --navbar-height: 64px;
-  --navbar-logo-height: 60px;
+  --navbar-logo-height: 48px;
 }
 
 .navbar {
@@ -28,14 +28,14 @@
 
 .navlink {
   position: relative;
-  left: var(--small);
-  padding: var(--small);
+  padding: var(--small) 0;
   font-weight: bold;
 }
 
 .navlinks {
   display: flex;
   align-items: center;
+  gap: var(--medium);
 }
 
 .navlogo {

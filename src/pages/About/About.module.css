@@ -1,6 +1,5 @@
 .description {
   flex: 1 1 var(--large-3x);
-  min-width: var(--large-3x);
 }
 
 .headshot {
