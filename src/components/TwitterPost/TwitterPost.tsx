@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import ExternalLink from "@components/ExternalLink/ExternalLink.tsx";
+import styles from "./TwitterPost.module.css";
 
 const widgetsScript = "https://platform.x.com/widgets.js";
 
@@ -35,8 +36,10 @@ export default function TwitterPost({ url }: { url: string }) {
   }, [url]);
 
   return (
-    <blockquote className="twitter-tweet" data-align="center">
-      <ExternalLink href={url}>View post on X</ExternalLink>
-    </blockquote>
+    <div className={`${styles.overflowContainer} graphic`}>
+      <blockquote className="twitter-tweet" data-align="center">
+        <ExternalLink href={url}>View post on X</ExternalLink>
+      </blockquote>
+    </div>
   );
 }
