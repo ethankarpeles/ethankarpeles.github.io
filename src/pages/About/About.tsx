@@ -61,8 +61,8 @@ function Content() {
           </p>
           <p>
             My software engineering journey is grounded in a strong quantitative
-            background at the {UNT}, where I recently graduated with a Bachelor
-            of Science in Mathematics. In 2024, the {UNTMath} recognized my
+            background at the {UNT}, where I graduated with a Bachelor of
+            Science in Mathematics. In 2024, the {UNTMath} recognized my
             academic and community contributions by naming me {Outstanding}.
             Beyond the classroom, I also had the opportunity to explore
             arithmetic geometry through my research in{" "}
