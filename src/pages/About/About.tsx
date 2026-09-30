@@ -4,6 +4,7 @@ import ExternalLink from "@components/ExternalLink/ExternalLink.tsx";
 import styles from "./About.module.css";
 import headshot from "@assets/images/professional-headshot.png";
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
+import { PiGraduationCapFill } from "react-icons/pi";
 
 export default function About() {
   return (
@@ -36,11 +37,6 @@ function Content() {
       Students Talk about Research Seminar
     </ExternalLink>
   );
-  const MastersStudent = (
-    <ExternalLink href="https://amath.washington.edu/people/ethan-karpeles">
-      Master's Student
-    </ExternalLink>
-  );
   const UniversityOfWashington = (
     <ExternalLink href="https://www.washington.edu/">
       University of Washington
@@ -59,8 +55,8 @@ function Content() {
       <section className={styles.about}>
         <div className={styles.description}>
           <p>
-            Welcome! I am an AI & Software Engineer at {PMG} and a{" "}
-            {MastersStudent} in Applied & Computational Mathematics at the{" "}
+            Welcome! I am an AI & Software Engineer at {PMG} and a Master's
+            Student in Applied & Computational Mathematics at the{" "}
             {UniversityOfWashington}.
           </p>
           <p>
@@ -94,6 +90,9 @@ function Socials() {
       </ExternalLink>
       <ExternalLink href="https://github.com/ethankarpeles">
         <AiFillGithub className={styles.social} />
+      </ExternalLink>
+      <ExternalLink href="https://amath.washington.edu/people/ethan-karpeles">
+        <PiGraduationCapFill className={styles.social} />
       </ExternalLink>
     </>
   );
