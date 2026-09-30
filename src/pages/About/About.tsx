@@ -36,19 +36,33 @@ function Content() {
       Students Talk about Research Seminar
     </ExternalLink>
   );
+  const MastersStudent = (
+    <ExternalLink href="https://amath.washington.edu/people/ethan-karpeles">
+      Master's Student
+    </ExternalLink>
+  );
+  const UniversityOfWashington = (
+    <ExternalLink href="https://www.washington.edu/">
+      University of Washington
+    </ExternalLink>
+  );
 
   return (
     <article>
       <header>
         <h1 className={styles.introduction}>Hi, I'm Ethan Karpeles</h1>
         <h2 className={styles.subintroduction}>
-          <i>AI & Software Engineer I at {PMG}</i>
+          <i>AI & Software Engineer at {PMG}</i>
         </h2>
         <Socials />
       </header>
       <section className={styles.about}>
         <div className={styles.description}>
-          <p>Welcome! I am an AI & Software Engineer I at {PMG}.</p>
+          <p>
+            Welcome! I am an AI & Software Engineer at {PMG} and a{" "}
+            {MastersStudent} in Applied & Computational Mathematics at the{" "}
+            {UniversityOfWashington}.
+          </p>
           <p>
             My software engineering journey is grounded in a strong quantitative
             background at the {UNT}, where I recently graduated with a Bachelor
