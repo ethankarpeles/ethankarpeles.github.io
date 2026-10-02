@@ -91,7 +91,10 @@ function Socials() {
       <ExternalLink href="https://github.com/ethankarpeles">
         <AiFillGithub className={styles.social} />
       </ExternalLink>
-      <ExternalLink href="https://amath.washington.edu/people/ethan-karpeles">
+      <ExternalLink
+        href="https://amath.washington.edu/people/ethan-karpeles"
+        style={{ marginLeft: "2px" }}
+      >
         <PiGraduationCapFill className={styles.social} />
       </ExternalLink>
     </>
